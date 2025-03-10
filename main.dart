@@ -1,3 +1,7 @@
+import 'dart:io';
+import 'shoppingMall.dart';
+
 void main() {
-  print("Hello, Dart!");
+  ShoppingMall shoppingMall = ShoppingMall();
+  shoppingMall.run();
 }
