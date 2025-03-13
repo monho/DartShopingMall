@@ -33,4 +33,21 @@ class Cart {
   Map<String, int> getCartItems() {
     return cart;
   }
+
+  void clearCart(){
+    try{
+      if(cart.length != 0)
+      {
+        cart.clear();
+        print("장바구니를 초기화합니다.");
+      }
+      else
+      {
+        print("이미 장바구니가 비어있습니다.");
+      }
+    }
+    catch(e){
+    }
+  }
+
 }
